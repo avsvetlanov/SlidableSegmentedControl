@@ -3,7 +3,7 @@
 
 iOS Slidable segmented control with highlighting text under slidable selecting view written in Swift.
 
-![Preview](https://github.com/avsvetlanov/SlidableSegmentedControl/blob/master/preview.gif)
+![Preview](https://github.com/avsvetlanov/SlidableSegmentedControl/blob/master/previewBig.gif)
 
 ## Requirements
 
@@ -51,7 +51,7 @@ segmentedControl.selectSegment(at: 0, animated: true)
 You can handle selected item with closure:
 ```swift
 segmentedControl.onSelection = { sender in
-	print("Selected index: ", sender.selectedSegmentIndex)
+    print("Selected index: ", sender.selectedSegmentIndex)
 }
 ```
 
@@ -59,7 +59,7 @@ Or you can use delegate:
 ```swift
 // MARK: SlidableSegmentedControlDelegate
 func didSelectSegment(sender: SlidableSegmentedControl) {
-	print("Selected index: ", sender.selectedSegmentIndex)
+    print("Selected index: ", sender.selectedSegmentIndex)
 }
 ```
 
