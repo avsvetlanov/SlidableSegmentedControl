@@ -3,7 +3,7 @@
 
 iOS Slidable segmented control with highlighting text under slidable selecting view written in Swift.
 
-![Preview](https://github.com/avsvetlanov/SlidableSegmentedControl/blob/master/previewBig.gif)
+![Preview](https://github.com/lanslight/SlidableSegmentedControl/blob/master/previewBig.gif)
 
 ## Requirements
 
